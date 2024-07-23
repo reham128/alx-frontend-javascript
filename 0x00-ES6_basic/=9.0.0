@@ -1,9 +1,0 @@
-+ babel-plugin-macros@3.1.0
-+ node-notifier@10.0.1
-+ eslint@8.57.0
-+ ts-node@10.9.2
-+ @typescript-eslint/eslint-plugin@7.17.0
-+ typescript@5.5.3
-added 52 packages from 39 contributors, removed 37 packages, updated 23 packages, moved 6 packages and audited 751 packages in 145.008s
-found 0 vulnerabilities
-
