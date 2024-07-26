@@ -7,6 +7,6 @@ export default class EVCar extends Car {
   }
 
   cloneCar() {
-    return new Car();
+    return Object.assign(Object.create(Object.getPrototypeOf(this)), this);
   }
 }
