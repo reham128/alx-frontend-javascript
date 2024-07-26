@@ -5,11 +5,11 @@ const asyncUploadUser = async () => {
     const results = await Promise.all([uploadPhoto(), createUser()]);
     return {
       photo: results[0],
-      user: results[1]
+      user: results[1],
     };
   } catch (err) {
     return { photo: null, user: null };
   }
-}
+};
 
 export default asyncUploadUser;
