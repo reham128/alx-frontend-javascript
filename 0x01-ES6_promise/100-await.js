@@ -7,12 +7,9 @@ const asyncUploadUser = async () => {
       photo: results[0],
       user: results[1]
     };
-  } catch {  
-    return {
-      photo: null,
-      user: null
-    };
+  } catch (err) {
+    return { photo: null, user: null };
   }
-};
+}
 
 export default asyncUploadUser;
