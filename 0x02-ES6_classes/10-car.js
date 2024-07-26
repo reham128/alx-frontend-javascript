@@ -6,7 +6,6 @@ export default class Car {
   }
 
   cloneCar() {
-    // Clone the current instance using the spread operator
     return Object.assign(Object.create(Object.getPrototypeOf(this)), this);
   }
 }
